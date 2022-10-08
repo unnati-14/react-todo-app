@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class AddTodo extends Component {
     state = {
-        content: ''
+        content: 'Enter todo task here'
     }
     handleChange = (e) => {
         this.setState({
